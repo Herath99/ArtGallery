@@ -1,0 +1,264 @@
+body {
+    background-image: url(Images/b1.jpg);
+    background-color: #cccccc;
+    width: 100%;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    
+}
+
+#home:hover rect {
+    fill: white;
+    opacity:1;
+    cursor: pointer;
+    transition: .3s;
+    transform:scale(1.009);
+    transform-origin:top;
+}
+
+#home:hover text {
+    fill: black;
+    opacity:1;
+    cursor: pointer;
+    transition: .3s;
+    transform:scale(1.009);
+    transform-origin:top;
+}
+#home:active rect{
+    fill: black;
+}
+
+#home:active text{
+    fill: white;
+}
+
+#gallery:hover rect {
+    fill: white;
+    opacity:1;
+    cursor: pointer;
+    transition: .3s;
+    transform:scale(1.009);
+    transform-origin:top;
+}
+
+#gallery:hover text {
+    fill: black;
+    opacity:1;
+    cursor: pointer;
+    transition: .3s;
+    transform:scale(1.009);
+    transform-origin:top;
+}
+
+#gallery:hover line {
+    stroke: white;
+    transition: .3s;
+    
+}
+
+#gallery:active rect{
+    fill: black;
+}
+
+
+#gallery:active text{
+    fill: white;
+}
+
+#quiz:hover rect {
+    fill: white;
+    opacity:1;
+    cursor: pointer;
+    transition: .3s;
+    transform:scale(1.009);
+    transform-origin:top;
+}
+
+#quiz:hover text {
+    fill: black;
+    opacity:1;
+    cursor: pointer;
+    transition: .3s;
+    transform:scale(1.009);
+    transform-origin:top;
+}
+
+#quiz:hover line {
+    stroke: white;
+    transition: .3s;
+    transform:scale(1.009);
+    transform-origin:top;
+}
+
+#quiz:active rect{
+    fill: black;
+}
+
+#quiz:active text{
+    fill: white;
+}
+
+#site:hover rect {
+    fill: white;
+    opacity:1;
+    cursor: pointer;
+    transition: .3s;
+    transform:scale(1.009);
+    transform-origin:top;
+}
+
+#site:hover text {
+    fill: black;
+    opacity:1;
+    cursor: pointer;
+    transition: .3s;
+    transform:scale(1.009);
+    transform-origin:top;
+}
+
+#site:hover line {
+    stroke: white;
+    transition: .3s;
+    transform:scale(1.009);
+    transform-origin:top;
+}
+
+#site:active rect{
+    fill: black;
+}
+
+#site:active text{
+    fill: white;
+}
+
+#shop:hover rect {
+    fill: white;
+    opacity:1;
+    cursor: pointer;
+    transition: .3s;
+    transform:scale(1.009);
+    transform-origin:top;
+}
+
+#shop:hover text {
+    fill: black;
+    opacity:1;
+    cursor: pointer;
+    transition: .3s;
+    transform:scale(1.009);
+    transform-origin:top;
+}
+
+#shop:hover line {
+    stroke: white;
+    transition: .3s;
+    transform:scale(1.009);
+    transform-origin:top;
+}
+
+#shop:active rect{
+    fill: black;
+}
+
+#shop:active text{
+    fill: white;
+}
+
+#query:hover rect {
+    fill: white;
+    opacity:1;
+    cursor: pointer;
+    transition: .3s;
+    transform:scale(1.009);
+    transform-origin:top;
+}
+
+#query:hover text {
+    fill: black;
+    opacity:1;
+    cursor: pointer;
+    transition: .3s;
+    transform:scale(1.009);
+    transform-origin:top;
+}
+
+#query:hover line {
+    stroke: white;
+    transition: .3s;
+    transform:scale(1.009);
+    transform-origin:top;
+}
+
+#query:active rect{
+    fill: black;
+}
+
+#query:active text{
+    fill: white;
+}
+
+#about:hover rect {
+    fill: white;
+    opacity:1;
+    cursor: pointer;
+    transition: .3s;
+    transform:scale(1.009);
+    transform-origin:top;
+}
+
+#about:hover text {
+    fill: black;
+    opacity:1;
+    cursor: pointer;
+    transition: .3s;
+    transform:scale(1.009);
+    transform-origin:top;
+}
+
+#about:hover line {
+    stroke: white;
+    transition: .3s;
+    transform:scale(1.009);
+    transform-origin:top;
+}
+
+#about:active rect{
+    fill: black;
+}
+
+#about:active text{
+    fill: white;
+}
+
+#content:hover rect {
+    fill: white;
+    opacity:1;
+    cursor: pointer;
+    transition: .3s;
+    transform:scale(1.009);
+    transform-origin:top;
+}
+
+#content:hover text {
+    fill: black;
+    opacity:1;
+    cursor: pointer;
+    transition: .3s;
+    transform:scale(1.009);
+    transform-origin:top;
+}
+
+#content:hover line {
+    stroke: white;
+    transition: .3s;
+    
+}
+
+#content:active rect{
+    fill: black;
+}
+
+#content:active text{
+    fill: white;
+}

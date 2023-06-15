@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="query_form.css">
+    <script defer src="query_form.js"></script>
+    <script src="artGallery.js"></script> 
+    <link rel="stylesheet" href="artGallery.css">
+    <title>Art Gallery</title>
+</head>
+<body id="body">
+    <header>
+        <div class="logo">
+            <h3>Art-ish</h3>
+        </div>
+        <div class="navbar">
+            <nav>
+                <ul class="nav_bar">
+                    <li>
+                        <a href="mainPage.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#gallery">Gallery</a>
+                    </li>
+
+                    <li>
+                        <a href="#quiz">Shop</a>
+                    </li>
+
+                    <li>
+                        <a href="#svg">Exhibition</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#shop">Quiz</a>
+                    </li>
+
+                    <li>
+                        <a href="#svg">Site-Map</a>
+                    </li>
+
+                    <li>
+                        <a href="#about">About Us</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    <div class="contactBtn">
+        <button type="button" class="contactUs" ></button>
+            <a href="query_form.html">Contact us</a>
+    </div>
+    </header>
+    <div class="colors">
+        <div class="select">
+            <select name="selectBackgroundColor" onchange="changeBackgroundColor(this)">
+                <option selected hidden>Change Background color</option>
+                <option value="red">Red</option>
+                <option value="yellow">Yellow</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="orange">Orange</option>
+                <option value="purple">Purple</option>
+            </select>
+            <select name="selectTextColor" onchange="changeTextColor(this)">
+                <option selected hidden>Change Text color</option>
+                <option value="red">Red</option>
+                <option value="yellow">Yellow</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="orange">Orange</option>
+                <option value="purple">Purple</option>
+            </select>
+        </div>
+    </div>
+
+            
+    <div id="mainimage">
+        <img src="images/bgimage.jpg" alt="paint" class="mainimage">
+        <div class="mainText">
+            Art Gallery
+        </div>
+    </div>
+
+    <div id="gallery">
+        <div id="img1" class="thumbnail" onclick="img1()">
+            <img src="images/image1.jpg" alt="Guernica" class="thumbnailImage">
+            <div class="thumbnailName">
+                Guernica <br> <br>
+                <div class="hidden">--Click to see the story--</div>
+            </div>
+        </div>
+        <div id="img2" class="thumbnail" onclick="img2()">
+            <img src="images/image2.jpg" alt="The Starry Night" class="thumbnailImage" >
+            <div class="thumbnailName">
+                The Starry Night <br> <br>
+                <div class="hidden">--Click to see the story--</div>
+            </div>
+        </div>
+        <div id="img3" class="thumbnail" onclick="img3()">
+            <img src="images/image3.jpg" alt="Girl with a Pearl Earring" class="thumbnailImage" >
+            <div class="thumbnailName">
+                Girl with a Pearl Earring <br> <br>
+                <div class="hidden">--Click to see the story--</div>
+            </div>
+        </div>
+        <div id="img4" class="thumbnail" onclick="img4()">
+            <img src="images/image4.jpg" alt="Ophelia" class="thumbnailImage" >
+            <div class="thumbnailName">
+                Ophelia <br> <br>
+                <div class="hidden">--Click to see the story--</div>
+            </div>
+        </div>
+        <div id="img5" class="thumbnail" onclick="img5()">
+            <img src="images/image5.jpg" alt="Nighthawks" class="thumbnailImage" >
+            <div class="thumbnailName">
+                Nighthawks <br> <br>
+                <div class="hidden">--Click to see the story--</div>
+            </div>
+        </div>    
+    </div>
+    <div class="footer">
+        <div class="footer-content">
+      
+          <div class="footer-section abt">
+            <div class="logo">
+              <h1 style="text-align: center;" id="footer-head">Art-ish</h1>
+            </div>
+      
+            <p id="footer-text">Copyright MT© 2022 Digital AG,<br> All rights reserved.<br>
+      
+            </p>
+          </div>
+      
+          <div class="footer-section links">
+            <h4>Quick Links</h4>
+            <ul style="margin-left:120px">
+              <li><a class="flinks" href="https://w1872042.users.ecs.westminster.ac.uk/singtourist.html">Home</a></li>
+              <li><a class="flinks" href="https://w1872042.users.ecs.westminster.ac.uk/Buy_Products.html">Shop</a></li>
+              <li><a class="flinks" href="https://w1869934.users.ecs.westminster.ac.uk/Quiz.html">Quiz</a></li>
+              <li><a class="flinks" href="https://w1868419.users.ecs.westminster.ac.uk/gallery.html">Gallery</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section links">
+            <h4>More</h4>
+            <ul style="margin-left:145px">
+              <li><a class="flinks" href="https://w1869934.users.ecs.westminster.ac.uk/About.html">About us</a></li>
+              <li><a class="flinks" href="https://w1867407.users.ecs.westminster.ac.uk/Feedback.html">Content</a></li>
+              <li><a class="flinks" href="https://w1868419.users.ecs.westminster.ac.uk/svg.html">Site Map</a></li>
+            </ul>
+          </div>
+      
+          <div class="footer-section links">
+            <h4>Our Socials</h4>
+            <ul style="margin-left:120px">
+              <li><a class="flinks" href="https://www.facebook.com/"><i class="fab fa-facebook-square" aria-hidden="true"> Facebook</i></a></li>
+              <li><a class="flinks" href="https://www.instagram.com/"><i class="fab fa-instagram" aria-hidden="true"> Instagram</i></a></li>
+              <li><a class="flinks" href="https://www.youtube.com/"><i class="fab fa-youtube" aria-hidden="true"> Youtube</i></a></li>
+              <li><a class="flinks" href="https://twitter.com/"><i class="fab fa-twitter" aria-hidden="true"> Twitter</i></a></li>
+            </ul>
+          </div>
+      
+        </div>
+      
+          <div class="footer-bottom">
+            <p id="footer-bottom-text">MT© Art-ish.com | Page Edited by<span id="page-editor" onclick="openNav()"> Dumindu Herath </span></p>
+          </div>
+      
+      </div>
+      
+        <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Click To Back</a>
+        <div class="overlay-content">
+          <img src="images/Dumindu.jpeg" alt="Dumindu"><br>
+          <h1 id="page-editor-name">Dumindu Herath</h1><br>
+          <p id="page-editor-details">Student No 4<br>
+            IIT ID: 20200119<br>
+            UoW ID: w1868419<br>
+          </p>
+                      <br>
+                      <dl class="page-editor-details" style="margin-left:-40px">
+            <dt></dt>
+              <dd> List Of Tasks Completed: </dd>
+              <dd> Task 05 - Diagram(SVG) </dd>
+              <dd> Task 07 - Thumbnail Images </dd>
+              <dd> Common Task 09b, 10, 11, 12, 13 </dd>
+              <dd></dd>
+              <dd> Pages validated with no errors </dd>
+              <dd> Uploaded to University Server </dd>
+              </dl>
+        </div>
+      </div>
+      
+      <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+      
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+      </script>
+      
+</body>
+</html>
